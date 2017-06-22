@@ -1,0 +1,35 @@
+
+https://github.com/freesouls/caffe  可能安装了triple——loss
+1.将XXX_layer.cpp,XXX.cu拷贝到caffe-face-norm\src\caffe\layers\
+2. 修改caffe-face-norm\src\caffe\proto\caffe.proto
+message LayerParameter {
+   //add by qionghua.he 2017.6.19  for normalization
+   //148
+    optional NormalizationParameter normalization_param = 148;
+    }
+   // add by qionghua.he 2017.6.19  add normalization param!
+message NormalizationParameter {
+    enum Norm {
+      L1 = 1;
+      L2 = 2;
+    }
+    // Specify the Norm to use L1 or L2
+    optional Norm norm = 1 [default = L2];
+}
+
+3.Normalization需要include/caffe/vision_layers.hpp   
+  include/caffe/common_layers.hpp,data_layers.hpp, loss_layers.hpp , neuron_layers.hpp       
+
+5.	make -j8
+	  make all
+	  make test
+	  make runtest
+    layer {
+    name: "l2"
+  type: "Normalization"
+  bottom: "fc7128"
+  top: "l2"
+    normalization_param {
+        norm: L2
+    }
+  }
