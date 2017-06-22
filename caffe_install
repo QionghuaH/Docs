@@ -1,0 +1,44 @@
+To install all package that caffe needed
+1. openblas
+  $: tar -zxvf OpenBLAS-0.2.19.tar.gz 
+  $: cd OpenBLAS-0.2.19/
+  $: make
+  $: make install PREFIX=../../openblas
+2. hdf5
+  $: tar -xvf hdf5-1.8.18.tar
+  $: cd hdf5-1.8.18
+  $: ./configure --prefix=absolute_path
+  $: make -j8
+  $: make install -j8
+4. glog
+  $: tar -zxvf  glog-0.3.3.tar.gz
+  $: cd glog-0.3.3
+  $: ./configure --prefix=/absolute_path/to/
+  $: make && make install -j8
+  $:
+3. gflags
+  $: unzip -q gflags-master.zip
+  $: cd gflags-master/
+  $: mkdir build && cd build
+  $: export CXXFLAGS="-fPIC" && cmake -D CMAKE_INSTALL_PREFIX=/DATACENTER1/qionghua.he/local/libs/gflag/ .. && make VERBOSE=1
+  $: make && make install
+  $:
+
+5. protobuf
+  $: tar -zxvf protobuf-2.6.1.tar.gz    
+  $: cd protobuf-2.6.1
+  $: ./configure --prefix=/path/to/protobuf
+  $: make 
+  $: make check 
+  $: make install
+6. leveldb (snappy)
+  $: tar -zxvf snappy.tar.gz 
+  $: cd snappy
+  $: sh autogen.sh
+  $: ./configure --prefix=/path/to/snappy
+  $: 
+  $: 
+7. lmdb
+  $: git clone https://github.com/LMDB/lmdb
+  $: cd lmdb/libraries/liblmdb
+  $: make && make install prefix=/../../
