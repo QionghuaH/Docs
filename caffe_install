@@ -36,9 +36,42 @@ To install all package that caffe needed
   $: cd snappy
   $: sh autogen.sh
   $: ./configure --prefix=/path/to/snappy
-  $: 
-  $: 
+  $: make && make install (May be wrong with README, Just cp README.md README)
+  $: unzip leveldb-master.zip 
+  $: cd leveldb-master/
+  $: make
+  $: cp --preserve=links libleveldb.* /home/you/usr/lib
+  $: cp -r include/leveldb /home/you/usr/include/
 7. lmdb
   $: git clone https://github.com/LMDB/lmdb
   $: cd lmdb/libraries/liblmdb
   $: make && make install prefix=/../../
+8. boost
+  $: tar -xvf boost_1_63_0.tar
+  $: cd boost_1_63_0
+  $: ./bootstrap.sh --libdir=/home/you/usr/lib --includedir=/home/you/usr/include
+  $: vi project-config.jam # edit python path if you have a compiled one
+  $: ./b2                                                             
+  $: ./b2 install
+9. Opencv  
+  $: unzip opencv-2.4.13.zip                                          
+  $: cd opencv-2.4.13
+  $: mkdir build && cd build 
+  $: cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/home/you/usr ..
+  $: make
+  $: make install -j8
+10. caffe
+  $: vi Makefile.config 
+        BLAS := atlas                           
+        BLAS_INCLUDE := /path/to/your/atlas/include                                  
+        BLAS_LIB := /path/to/your/atlas/lib  
+        
+        PYTHON_INCLUDE := /path/to/your/python/include/python2.7 \
+                  /path/to/your/python/lib/python2.7/site-packages/numpy/core/include
+        PYTHON_LIB := /home/qchen/Python27/lib
+        
+        INCLUDE_DIRS := $(PYTHON_INCLUDE) $(QC_CUSTOM_INCLUDE) /usr/local/include        
+        LIBRARY_DIRS := $(PYTHON_LIB) $(QC_CUSTOM_LIB) /usr/local/lib /usr/lib 
+    $: make all
+    $: make test
+    $: make runtest
