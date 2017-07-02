@@ -60,7 +60,17 @@ To install all package that caffe needed
   $: cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/home/you/usr ..
   $: make
   $: make install -j8
-10. caffe
+
+10. nccl
+    $: git clone https://github.com/NVIDIA/nccl.git
+    $:cd  nccl
+    $: make CUDA_HOME=/usr/local/cuda test #make CUDA_HOME=<cuda install path> test
+    $: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./build/lib
+    $: ./build/test/single/all_reduce_test 10000000
+    $:  make PREFIX=../../local/libs/nccl install  #make PREFIX=<install dir> install
+    $: add <instal dir>/lib to your LD_LIBRARY_PATH
+
+11. caffe
   $: vi Makefile.config 
         BLAS := atlas                           
         BLAS_INCLUDE := /path/to/your/atlas/include                                  
@@ -72,6 +82,14 @@ To install all package that caffe needed
         
         INCLUDE_DIRS := $(PYTHON_INCLUDE) $(QC_CUSTOM_INCLUDE) /usr/local/include        
         LIBRARY_DIRS := $(PYTHON_LIB) $(QC_CUSTOM_LIB) /usr/local/lib /usr/lib 
+        
+        uncomment USE_CUDNN := 1 ，use cuDNN to speed up；
+        uncomment USE_NCCL := 1， use multiGPU on caffe
+        
     $: make all
     $: make test
     $: make runtest
+    
+
+    
+   
