@@ -5,5 +5,5 @@ Day:2
 Day:3
     1.>how to implement the L2_norm  #http://freesouls.github.io/2015/08/30/caffe-implement-l2-normlization-layer/
     2.>set the fixed Scale_param: by set the lr_mult: 0  #https://stackoverflow.com/questions/37410996/scale-layer-in-caffe
-
-    
+    3.> 以minist为例，如果一次送进来一张图片，因为上一层inner_product层输出10个节点，则bottom ： num = 1, channels = 10, height = 1, width = 1;
+        #http://lib.csdn.net/snippet/deeplearning/48428
