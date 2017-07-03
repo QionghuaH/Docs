@@ -1,0 +1,8 @@
+#Record waht I learned in July.2017
+Day:2  
+    1.>read the paper 'NormFace-L2 Hypersphere Embedding for Face Verification' 
+    2.>https://github.com/happynear/NormFace
+Day:3
+    1.>how to implement the L2_norm  #http://freesouls.github.io/2015/08/30/caffe-implement-l2-normlization-layer/
+    2.>
+    
