@@ -69,6 +69,11 @@ To install all package that caffe needed
     $: ./build/test/single/all_reduce_test 10000000
     $:  make PREFIX=../../local/libs/nccl install  #make PREFIX=<install dir> install
     $: add <instal dir>/lib to your LD_LIBRARY_PATH
+    
+    
+    $: may enconter such problem:'ls: cannot access '/usr/lib64/libcudart.so.*': No such file or directory'
+    $: locate libcudart.so
+    $: vi Makefile, change the CUDA_LIB ?= $(CUDA_HOME)/lib64 to the libcudart.so's dir
 
 11. caffe
   $: vi Makefile.config 
