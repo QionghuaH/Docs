@@ -95,6 +95,13 @@ To install all package that caffe needed
     $: make test
     $: make runtest
     
+12. Problem & solution
+    PRO1: cannot find #include "caffe/proto/caffe.pb.h
+    SOL1: $: generate caffe.pb.h manually using protoc as follows
+          $: In the directory you installed Caffe to
+          $: protoc src/caffe/proto/caffe.proto --cpp_out=.
+          $: mkdir include/caffe/proto
+          $: mv src/caffe/proto/caffe.pb.h include/caffe/proto
 
     
    
