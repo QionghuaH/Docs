@@ -7,3 +7,10 @@ Day:3
     2.>set the fixed Scale_param: by set the lr_mult: 0  #https://stackoverflow.com/questions/37410996/scale-layer-in-caffe
     3.> 以minist为例，如果一次送进来一张图片，因为上一层inner_product层输出10个节点，则bottom ： num = 1, channels = 10, height = 1, width = 1;
         #http://lib.csdn.net/snippet/deeplearning/48428
+Day:5
+    1.>论文:A Proximity-Aware Hierarchical Clustering of Faces  定义了新的相似距离
+    2.>
+Day:7
+    1.>用100个类resnet101+center_loss 有收敛
+    2.>看懂了center_loss，InnerProdcuts的caffe代码   #http://blog.csdn.net/seven_first/article/details/47378697#6caffecopy-函数  
+    3.>了解了caffe调用过程     #https://buptldy.github.io/2016/10/09/2016-10-09-Caffe_Code/
