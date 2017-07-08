@@ -14,3 +14,9 @@ Day:7
     1.>用100个类resnet101+center_loss 有收敛
     2.>看懂了center_loss，InnerProdcuts的caffe代码   #http://blog.csdn.net/seven_first/article/details/47378697#6caffecopy-函数  
     3.>了解了caffe调用过程     #https://buptldy.github.io/2016/10/09/2016-10-09-Caffe_Code/
+Day:8
+    1.>transform th 'dateset_60000' imageTxt to lmdb file(with size 112*112)   
+    2.>183 resnet101—l2-ct-10000(w/o dropout)
+    3.>100 class try to test the model(ct /withou ct /dropout=0.5)
+    
+ 
