@@ -19,4 +19,9 @@ Day:8
     2.>183 resnet101—l2-ct-10000(w/o dropout)
     3.>100 class try to test the model(ct /withou ct /dropout=0.5)
     
+Day:12    
+    1.> this.blob[0]->mutable_gpu_diff()   this.blob[0]->mutable_gpu_data() #caffe 数据结构
+    2.> this.blob[0] this.blob[1] means weight & bias
+
+    
  
