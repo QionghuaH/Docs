@@ -22,6 +22,11 @@ Day:8
 Day:12    
     1.> this.blob[0]->mutable_gpu_diff()   this.blob[0]->mutable_gpu_data() #caffe 数据结构
     2.> this.blob[0] this.blob[1] means weight & bias
+    3.>C++中的结构 struct MyStruct  {  int member_a;  };    
+      @MyStruct s; s.member_a = 1;  
+      @MyStruct * ps; ps->member_a = 1; (*ps).member_a = 1; 
+Day:13
+   1.>
 
     
  
