@@ -28,6 +28,7 @@ Day:12
 Day:13
    1.>blob.shape=n×c×h×w shape.size=4 num_axis=4(0,1,2,3) count=n×c×h×w
    2.> solver->net->layer->sgd_slover->net.update()   http://www.cnblogs.com/573177885qq/p/6079280.html
-
+   3.>每个权重的梯度都等于与其相连的前一层节点的输出（即xi和θ(s1i)）乘以与其相连的后一层的反向传播的输出（即δ1j和δ2j）
+      http://blog.csdn.net/zhongkejingwang/article/details/44514073
     
  
