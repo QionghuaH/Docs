@@ -26,7 +26,8 @@ Day:12
       @MyStruct s; s.member_a = 1;  
       @MyStruct * ps; ps->member_a = 1; (*ps).member_a = 1; 
 Day:13
-   1.>
+   1.>blob.shape=n×c×h×w shape.size=4 num_axis=4(0,1,2,3) count=n×c×h×w
+   2.> solver->net->layer->sgd_slover->net.update()   http://www.cnblogs.com/573177885qq/p/6079280.html
 
     
  
