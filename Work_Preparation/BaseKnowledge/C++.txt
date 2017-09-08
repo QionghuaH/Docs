@@ -31,3 +31,4 @@
   C.strs = trend, * ptrs = micro
   D.strs = trend, * ptrs = trend
   正确答案：A
+5.
