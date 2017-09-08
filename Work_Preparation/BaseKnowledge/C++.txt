@@ -1,0 +1,33 @@
+1.设有说明语句:char a='\72';则变量 a（）。
+  A.包含1个字符
+  B.包含2个字符
+  C.包含3个字符
+  D.说明不合法
+  正确答案：A  反斜杠能转义的八进制和十六进制的字符,\后跟1-3位的八进制数,\x后跟一个或多个十六进制数
+2.C语言中，函数值类型的定义可以缺省，此时函数值的隐含类型是（）。
+  A.void
+  B.int
+  C.float
+  D.double
+  正确答案：A
+3.下列程序段的输出结果为（）。
+  int a=7,b=9,t;
+  t=a*=a>b?a:b;
+  printf("%d",t);
+  A.7
+  B.9
+  C.63
+  D.49
+  正确答案：C  a>b?a:b=9 a=a*7 t=a=63
+ 4.以下表达式选择结果。（    ）
+  std::string str1("trend");
+  std::string str2("micro");
+  std::string& strs = str1;
+  std::string* ptrs = &str1;
+  strs = str2;
+  ptrs = &str2;
+  A.strs = micro, * ptrs = micro
+  B.strs = micro, * ptrs = trend
+  C.strs = trend, * ptrs = micro
+  D.strs = trend, * ptrs = trend
+  正确答案：A
