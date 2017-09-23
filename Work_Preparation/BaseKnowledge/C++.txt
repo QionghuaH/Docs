@@ -31,4 +31,16 @@
   C.strs = trend, * ptrs = micro
   D.strs = trend, * ptrs = trend
   正确答案：A
-5.
+5.#define MUL(A,B) A*B 请问MUL(3+4,5+6)的值是多少？ 
+  正确答案: 3+4*5+6=29 
+6.struct name1{ char str; int num;  short x;}；求sizeof(name1)是多少？是在32位处理器上  
+  正确答案: 12，注意内存对齐，char占1byte但Int要在4的整数倍上，同样short要在2的整数倍上，但同样要内存对齐。
+7.int main(){  int x=3;  printf("%d",x);   return 1;}问题：main函数既然不会被其它函数调用，为什么要返回一个值？这个返回值有什么用途？  
+  正确答案: 操作系统需要这个返回值，main函数的返回值用于说明程序的退出状态。如果返回0，则代表程序正常退出；返回其它数字的含义则由系统决定。通常，返回            非零代表程序异常退出。
+8.typedef union{ int ia; char c[4]; short int s[2]; }untest; 
+  untest un;  un.c[0]=0xAA;un.c[1]=0xBB; un.c[2]=0xCC;un.c[3]=0xDD; 
+  那么un.ia=? un.s[0]=? 注意，X86CPU是小端结尾的.
+  正确答案: un.ia=0xDDCCBBAA; un.s[0]=0xBBAA; 将低序字节存储在起始地址，这称为小端(little-endian)字节序 （低地址放小的，小端）
+  S[0]存在低位字节，所以是C[0],C[1], 在内部低位字节存在C[0]是低位字节，然后C[1]是高位字节。即0xBBAA
+9.
+  
