@@ -52,4 +52,21 @@
 11.Linux中查看进程状态的命令有哪些？列出当前目录以及下面所有子目录里面的文件的命令是？
   正确答案：ps,top,pstree             ls -l|grep ^d, find . -type d
 12.关键字static 有什么用途？（请至少说明两种）
-  正确答案：
+  正确答案：1.初始化为0 2.声明模块或者函数外无法使用 3.static仅初始化一次，被声明为静态的变量在这一函数被调用过程中维持其值不变（该变量存放在静态变量区）
+13.函数memset的实现 原型：void*memset(void*buffer,int c,intcount); 功能：把buffer所指内存区域的前count个字节设置成字符c。
+  void*memset(void* src,int c,size_t count)
+  { 
+  assert(src!=NULL); 
+  char*tmpsrc=(char*)src;
+  while(count--)  *tmpsrc++=(char)c;  //
+  return src;
+  }
+14. *pa++ 
+  首先，后自增运算符的优先级高于解引用，因此该表达式等同于*(pa++)
+  其次，后自增表示，在表达式中先使用操作数的值，此处为pa
+  然后，怎样使用操作数pa的值呢（即对pa采取怎样的操作呢），解引用*，此处为*pa
+  最后，所有副作用在到达下一个顺序点之前都会生效，因此*pa++可以理解为2个操作，
+  先是*pa
+  再是pa++
+ 15.
+  
