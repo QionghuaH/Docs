@@ -31,10 +31,10 @@ To install all package that caffe needed
   $: make 
   $: make check 
   $: make install
-6. leveldb (snappy(m4))
-  $: (GNU M4)tar -xf m4-1.4.18.tar.xz && cd m4-1.4.18
+6. leveldb (snappy(安装automake(m4)))
+  $: /*   (GNU M4)tar -xf m4-1.4.18.tar.xz && cd m4-1.4.18
   $: ./configure -prefix=/DATACENTER2/qionghua.he/local/m4
-  $: make && make install  
+  $: make && make install   */
   $：
   $: tar -zxvf snappy.tar.gz 
   $: cd snappy
