@@ -98,6 +98,9 @@ To install all package that caffe needed
     $: make all
     $: make test
     $: make runtest
+ 13. Modify the ~/.bashrc
+    $: add export LD_LIBRARY_PATH ="all install package libs"
+    $：add export PATH="$PATH:"
     
 12. Problem & solution
     PRO1: cannot find #include "caffe/proto/caffe.pb.h
