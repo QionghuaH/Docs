@@ -20,7 +20,7 @@ To install all package that caffe needed
   $: unzip -q gflags-master.zip
   $: cd gflags-master/
   $: mkdir build && cd build
-  $: export CXXFLAGS="-fPIC" && cmake -D CMAKE_INSTALL_PREFIX=/DATACENTER1/qionghua.he/local/libs/gflag/ .. && make VERBOSE=1
+  $: export CXXFLAGS="-fPIC" && cmake -D CMAKE_INSTALL_PREFIX=/DATACENTER1/qionghua.he/local/libs/gflags/ .. && make VERBOSE=1
   $: make && make install
   $:
 
