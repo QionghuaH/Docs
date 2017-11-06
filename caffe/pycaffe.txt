@@ -1,0 +1,17 @@
+1.make pycaffe -j8
+2.export PYTHONPATH="$PYTHONPATH:/home/qionghua.he/projects/caffe-face/python/"
+3.No module named cv2
+  A2:Python lack of cv2.so
+  locate cv2.so   
+  cp DATACENTER2/qionghua.he/local/opencv/lib/python2.7/dist-packages/cv2.so  "python2.7lib"
+
+4.
+  A1:mkdir python_venv
+     virtualenv --distribute python_venv
+     cd python_venv
+     source ./bin/activate
+     deactivate
+     
+     
+5.skimage.io  --->scikit-image
+   pip install scikit-image
