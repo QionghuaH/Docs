@@ -6,6 +6,6 @@
    读DeepID2
    代码分析 http://www.cnblogs.com/idiotgroup/p/5676527.html
    
-11.7
-   
-  
+11.7 contrastive loss   Yann LeCun--Dimensionality Reduction by Learning an Invariant Mapping
+   理解梯度推导及实现 高维度降到低维度
+  
