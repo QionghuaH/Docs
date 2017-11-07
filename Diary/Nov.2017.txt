@@ -2,5 +2,10 @@
   读Large-Margin Softmax Loss for Convolutional Neural Networks
   代码分析 http://www.cnblogs.com/idiotgroup/p/5925974.html
   
-11.4
+11.6
+   读DeepID2
+   代码分析 http://www.cnblogs.com/idiotgroup/p/5676527.html
+   
+11.7
+   
   
