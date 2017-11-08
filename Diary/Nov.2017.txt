@@ -15,4 +15,5 @@
     energy-based models (EBM)
     可以通过relate work 了解相关人脸识别的算法
     高斯分布 弄清楚了（计算待判断特征f和期望特征b的协方差c  用公式即可计算出概率）
+    读论文 Hamming Distance Metric Learning   官方code：https://github.com/norouzi/hdml
   
