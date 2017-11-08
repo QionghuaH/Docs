@@ -8,6 +8,7 @@
    
 11.7 contrastive loss   Yann LeCun--Dimensionality Reduction by Learning an Invariant Mapping
    理解梯度推导及实现 高维度降到低维度
+   http://blog.csdn.net/sxf1061926959/article/details/54836696
    
 11.8 读论文 Learning a Similarity Metric Discriminatively, with Application to Face Verification
     siamese architecture 解释
