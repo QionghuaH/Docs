@@ -16,4 +16,9 @@
     可以通过relate work 了解相关人脸识别的算法
     高斯分布 弄清楚了（计算待判断特征f和期望特征b的协方差c  用公式即可计算出概率）
     读论文 Hamming Distance Metric Learning   官方code：https://github.com/norouzi/hdml
+    
+ *11.9 读论文 Level Playing Field for Million Scale Face Recognition
+    数据分类方法 及去除噪声
+    数据集假设部分 以后可参考
+    大数据训练方式  先用个小的去学习参数
   
