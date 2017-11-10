@@ -11,6 +11,7 @@ This file is for installation of tools/packages whithout root
         outputFile=/snfs01/ff/matlabinstall.log （安装日志，可有可无）<br>
         mode=silent （安装方式）<br>
         licensePath=/snfs01/ff/MatlabInstall/serial/license.lic （license文件位置，绝对路径）  
+        activationPropertiesFile=/matlab/etc/activate.ini //激活文件
         或者  
         ./install -mode silent -destinationFolder /DATACENTER3/qionghua.he/local/matlab/ -agreeToLicense yes -fileInstallationKey 09806-07443-53955-64350-21751-41297 licensePath /DATACENTER3/qionghua.he/packages/Matlab+2016b+Linux64+Crack/license_standalone.lic
     
@@ -19,11 +20,18 @@ This file is for installation of tools/packages whithout root
     chmod +x install_Unix
     两秒钟就结束，但是没有安装，有错误但是没有提示，（看了下install和install_unix的脚本文件）。
     解决方法：切换到安装包下对应sys/java/jre/glnx86/jre/bin/java路径，执行chmod +x java就好了。
-    
-
-* step3:  
-    修改~/bashrc PATH=../../../matlab/bin
+ 
+* step3: 
+    复制R2016b_glnxa64目录下的 activate.ini 和 license_standalone.lic 到安装目录下matlab/bin下面 
+    修改activate.ini文件 
+        isSilent=true //开启silent模式 
+        activateCommand=activateOffline //设置激活方式, 离线激活 无需联网 
+        licenseFile=license_standalone.lic //license文件位置 
+    执行 activate_matlab.sh -propertiesFile activate.ini 
     
 * step4:  
+    修改~/bashrc PATH=../../../matlab/bin    
+    
+* step5:  
     测试  matlab
 
