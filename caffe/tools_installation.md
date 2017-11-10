@@ -30,7 +30,7 @@ This file is for installation of tools/packages whithout root
     *  licenseFile=license_standalone.lic //license文件位置 <br>
     *  执行 `./activate_matlab.sh -propertiesFile activate.ini` <br>
 * step4:  <br>
-    将Matlab+2016b+Linux64+Crack/R2016b/bin/glnxa64/`ibmwservices.so`复制到 安装路径matlab/bin/glnxa64/下
+    *将Matlab+2016b+Linux64+Crack/R2016b/bin/glnxa64/`ibmwservices.so`复制到 安装路径matlab/bin/glnxa64/下
 
 * step5:  <br>
     修改~/.bashrc 
