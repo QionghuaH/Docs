@@ -2,8 +2,7 @@ To install all package that caffe needed
 
 1. openblas
   $: tar -zxvf OpenBLAS-0.2.19.tar.gz 
-  $: cd OpenBLAS-0.2.19/
-  $: make
+  $: cd OpenBLAS-0.2.19/ && make
   $: make install PREFIX=../../openblas
 2. hdf5
   $: tar -xvf hdf5-1.8.18.tar
