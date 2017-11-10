@@ -19,9 +19,9 @@ This file is for installation of tools/packages whithout root
     
 * step2:用`chmod +x`赋予其可执行权限  <br>
 	* chmod +x install<br>
-		* chmod +x install_Unix<br>
-		* 两秒钟就结束，但是没有安装，有错误但是没有提示，（看了下install和install_unix的脚本文件）。<br>
-		* 解决方法：切换到安装包下对应sys/java/jre/glnx86/jre/bin/java路径，执行chmod +x java就好了。<br>
+	* chmod +x install_Unix<br>
+	* 两秒钟就结束，但是没有安装，有错误但是没有提示，（看了下install和install_unix的脚本文件）。<br>
+	* 解决方法：切换到安装包下对应sys/java/jre/glnx86/jre/bin/java路径，执行chmod +x java就好了。<br>
  
 * step3: <br>
 	* 复制R2016b_glnxa64目录下的 activate.ini 和 license_standalone.lic 到安装目录下matlab/bin下面<br>
