@@ -55,14 +55,14 @@ To install all package that caffe needed
   $: cd boost_1_63_0
   $: ./bootstrap.sh --libdir=/home/you/usr/lib --includedir=/home/you/usr/include
   $: vi project-config.jam # edit python path if you have a compiled one
-  $: ./b2                                                             
-  $: ./b2 install
+  $: ./b2 -j8                                                            
+  $: ./b2 install -j8
 9. Opencv  
   $: unzip opencv-2.4.13.zip                                          
   $: cd opencv-2.4.13
   $: mkdir build && cd build 
   $: cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/home/you/usr ..
-  $: make
+  $: make -j8
   $: make install -j8
 
 10. nccl
