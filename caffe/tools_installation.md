@@ -14,7 +14,7 @@ This file is for installation of tools/packages whithout root
         或者  
         ./install -mode silent -destinationFolder /DATACENTER3/qionghua.he/local/matlab/ -agreeToLicense yes -fileInstallationKey 09806-07443-53955-64350-21751-41297 licensePath /DATACENTER3/qionghua.he/packages/Matlab+2016b+Linux64+Crack/license_standalone.lic
     
-* step2:用`chmod +x`＇a＇赋予其可执行权限  
+* step2:用`chmod +x`赋予其可执行权限  
     chmod +x install
     chmod +x install_Unix
     两秒钟就结束，但是没有安装，有错误但是没有提示，（看了下install和install_unix的脚本文件）。
@@ -22,7 +22,7 @@ This file is for installation of tools/packages whithout root
     
 
 * step3:  
-    修改~/bashrc PATH=../../../matlab/bin
+    修改~/bashrc PATH=../../../matlab/bin
     
 * step4:  
     测试  matlab
