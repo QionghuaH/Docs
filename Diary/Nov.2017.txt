@@ -21,4 +21,12 @@
     数据分类方法 及去除噪声
     数据集假设部分 以后可参考
     大数据训练方式  先用个小的去学习参数
+    
+ 11.10 
+    读论文 
+    搞懂MegaFace的测试代码(matio.py,run_experiment.py) 
+    struct.pack()  
+    proc = subprocess.Popen(
+        [IDENTIFICATION_EXE, model, "path", probe_feature_list, probe_feature_list, probe_score_filename])
+    proc.communicate()
   
