@@ -1,4 +1,5 @@
 To install all package that caffe needed
+
 1. openblas
   $: tar -zxvf OpenBLAS-0.2.19.tar.gz 
   $: cd OpenBLAS-0.2.19/
