@@ -23,14 +23,14 @@ This file is for installation of tools/packages whithout root
     解决方法：切换到安装包下对应sys/java/jre/glnx86/jre/bin/java路径，执行chmod +x java就好了。<br>
  
 * step3: <br>
-    *  复制R2016b_glnxa64目录下的 activate.ini 和 license_standalone.lic 到安装目录下matlab/bin下面 <br>
+    *  复制R2016b_glnxa64目录下的 activate.ini 和 license_standalone.lic 到安装目录下matlab/bin下面<br>
     *  修改activate.ini文件 <br>
     *  isSilent=true //开启silent模式<br>
     *  activateCommand=activateOffline //设置激活方式, 离线激活 无需联网<br>
-    *  licenseFile=license_standalone.lic //license文件位置 <br>
-    *  执行 `./activate_matlab.sh -propertiesFile activate.ini` <br>
+    *  licenseFile=license_standalone.lic //license文件位置<br>
+    *  执行 `./activate_matlab.sh -propertiesFile activate.ini`<br>
 * step4:  <br>
-    *将Matlab+2016b+Linux64+Crack/R2016b/bin/glnxa64/`ibmwservices.so`复制到 安装路径matlab/bin/glnxa64/下
+    将Matlab+2016b+Linux64+Crack/R2016b/bin/glnxa64/`ibmwservices.so`复制到 安装路径matlab/bin/glnxa64/下
 
 * step5:  <br>
     修改~/.bashrc 
