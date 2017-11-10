@@ -5,7 +5,11 @@
     proc = subprocess.Popen(
         [IDENTIFICATION_EXE, model, "path", probe_feature_list, probe_feature_list, probe_score_filename])
     proc.communicate()
-    轻松看懂机器学习十大常用算法 http://www.jianshu.com/p/55a67c12d3e9
+    
+    装matlab 和 caffe
+    轻松看懂机器学习十大常用算法 http://www.jianshu.com/p/55a67c12d3e9
+    
+    
     
 *11.9 读论文 Level Playing Field for Million Scale Face Recognition
     数据分类方法 及去除噪声
