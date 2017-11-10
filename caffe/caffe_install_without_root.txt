@@ -106,8 +106,8 @@ To install all package that caffe needed
     PRO1: cannot find #include "caffe/proto/caffe.pb.h
     SOL1: $: generate caffe.pb.h manually using protoc as follows
           $: In the directory you installed Caffe to
-          $: protoc src/caffe/proto/caffe.proto --cpp_out=.
-          $: mkdir include/caffe/proto
+          $: protoc src/caffe/proto/caffe.proto --cpp_out=.  [若提示没有protoc，则去protobuf安装路径bin下找]
+          $: mkdir include/caffe/proto
           $: mv src/caffe/proto/caffe.pb.h include/caffe/proto
 
     
