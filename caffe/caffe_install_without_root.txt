@@ -110,9 +110,14 @@ To install all package that caffe needed
           $: mkdir include/caffe/proto
           $: mv src/caffe/proto/caffe.pb.h include/caffe/proto
           
-13.Pycaffe
-   make pycaffe -j8   export PYTHONPATH=$PYTHONPATH:../caffe-root/python/
+13.pycaffe
+   make pycaffe -j8   
+   export PYTHONPATH=$PYTHONPATH:../caffe-root/python/
+   
+14.matcaffe
    make matcaffe -j8
+   make mattest -j8 
+   在Caffe根目录启动Matlab之后需要增加路径：`ddpath ./matlab`  (savepath)
    
    
 
