@@ -109,6 +109,12 @@ To install all package that caffe needed
           $: protoc src/caffe/proto/caffe.proto --cpp_out=.  [若提示没有protoc，则去protobuf安装路径bin下找]
           $: mkdir include/caffe/proto
           $: mv src/caffe/proto/caffe.pb.h include/caffe/proto
+          
+13.Pycaffe
+   make pycaffe -j8   export PYTHONPATH=$PYTHONPATH:../caffe-root/python/
+   make matcaffe -j8
+   
+   
 
     
    
