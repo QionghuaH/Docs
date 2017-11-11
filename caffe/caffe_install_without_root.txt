@@ -101,23 +101,30 @@ To install all package that caffe needed
  13. Modify the ~/.bashrc
     $: add export LD_LIBRARY_PATH ="all install package libs"
     $：add export PATH="$PATH:"
-    
-12. Problem & solution
+          
+12.pycaffe
+   make pycaffe -j8   
+   export PYTHONPATH=$PYTHONPATH:../caffe-root/python/
+   
+13.matcaffe
+   make matcaffe -j8
+   make mattest -j8 
+   在Caffe根目录启动Matlab之后需要增加路径：`ddpath ./matlab`  (savepath)
+   
+14. Problem & solution
     PRO1: cannot find #include "caffe/proto/caffe.pb.h
     SOL1: $: generate caffe.pb.h manually using protoc as follows
           $: In the directory you installed Caffe to
           $: protoc src/caffe/proto/caffe.proto --cpp_out=.  [若提示没有protoc，则去protobuf安装路径bin下找]
           $: mkdir include/caffe/proto
           $: mv src/caffe/proto/caffe.pb.h include/caffe/proto
-          
-13.pycaffe
-   make pycaffe -j8   
-   export PYTHONPATH=$PYTHONPATH:../caffe-root/python/
-   
-14.matcaffe
-   make matcaffe -j8
-   make mattest -j8 
-   在Caffe根目录启动Matlab之后需要增加路径：`ddpath ./matlab`  (savepath)
+   PRO2:Invalid MEX-file '/home/qionghua.he/projects/caffe-face/matlab/+caffe/private/caffe_.mexa64':
+       /DATACENTER3/qionghua.he/local/matlab/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found                (required by/home/qionghua.he/projects/caffe-face/matlab/+caffe/private/caffe_.mexa64).
+   SOL2:
+       >>locate libstdc++.so.6 
+       >>strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBC 
+       >>ln -sf /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20 /opt/MATLAB/R2012a/sys/os/glnxa64/libstdc++.so.6 
+
    
    
 
