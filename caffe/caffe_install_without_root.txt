@@ -44,7 +44,7 @@ To install all package that caffe needed
   $: unzip leveldb-master.zip 
   $: cd leveldb-master/
   $: make
-  $: cp --preserve=links libleveldb.* /home/you/usr/lib
+  $: cp --preserve=links libleveldb.* /home/you/usr/lib   //the path you want to install
   $: cp -r include/leveldb /home/you/usr/include/
 7. lmdb
   $: git clone https://github.com/LMDB/lmdb
