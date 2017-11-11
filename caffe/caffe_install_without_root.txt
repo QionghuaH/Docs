@@ -124,6 +124,19 @@ To install all package that caffe needed
        >>locate libstdc++.so.6 
        >>strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBC 
        >>ln -sf /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20 /opt/MATLAB/R2012a/sys/os/glnxa64/libstdc++.so.6 
+       
+    PRO3:遇到错误:_ZN2cv8imencodeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_11_InputArrayERSt6vectorIhSaIh
+    SOL3:
+        $:find / -name  libstdc++.so.6
+        $:修改bashrc
+        $export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/
+        $export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4:
+                           /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4:
+                           /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4:
+                           /usr/lib/x86_64-linux-gnu/libstdc++.so.6:
+                           /usr/lib/x86_64-linux-gnu/libfreetype.so.6
+
+       
 
    
    
