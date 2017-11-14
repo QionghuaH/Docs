@@ -1,3 +1,15 @@
+ 
+ 11.14
+    测试了MS_10000,MS_20000,因为采用了16K,24k,28k,结果只有77.7%左右,所以改变策略 增加迭代次数和epoch
+    将YTF上的测试集整理出来了
+    
+ 11.12 
+    装14上matlab 安装记录记载tool_install.txt上
+    将YTF的测试代码看懂
+    
+ 11.11 
+    装14上的caffe
+    
  11.10 
     读论文 MS-Celeb-1M: A Dataset and Benchmark for Large-Scale Face Recognition
     搞懂MegaFace的测试代码(matio.py,run_experiment.py) 
