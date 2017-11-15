@@ -43,6 +43,22 @@ This file is for installation of tools/packages whithout root
 	
 2.Python & Matlab
 -----------------
+* step1：安装
+	* 在Matlab命令行输入`matlabroot` 得到matlabroot
+	* Mac&Linux systems 
+		* `cd "matlabroot/extern/engines/python"`
+		* 'python setup.py install'
+* step2：使用自带函数 `https://cn.mathworks.com/help/matlab/apiref/matlab.engine.start_matlab.html`
+		* import matlab.engine
+		* eng = matlab.engine.start_matlab()
+		* A=eng.sqrt(4.)
+* step3：使用用户函数 `https://cn.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html`
+	* 在调用当前目录下的文件triarea.m
+		* import matlab.engine
+		* eng = matlab.engine.start_matlab()
+		* eng.triarea(nargout=0) %没有返回参数
+		* ret = eng.triarea(1.0,5.0) %带有返回参数
+		
 * step1：
 	* 在python下安装 pip install mlab
 	
