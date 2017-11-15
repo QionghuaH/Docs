@@ -1,4 +1,8 @@
- 
+ 11.15
+    matlab安装libsvm http://www.csie.ntu.edu.tw/~cjlin/libsvm/，当前版本为libsvm-3.22.zip
+    64位windows直接添加 libsvm-3.22/windows到matlab路径下
+    32位：mex -setup   然后进入libsvm-3.22/matlab执行make,将libsvm-3.22/matlab添加到相应目录下
+    
  11.14
     测试了MS_10000,MS_20000,因为采用了16K,24k,28k,结果只有77.7%左右,所以改变策略 增加迭代次数和epoch
     将YTF上的测试集整理出来了
