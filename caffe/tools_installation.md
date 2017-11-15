@@ -40,4 +40,20 @@ This file is for installation of tools/packages whithout root
 	* source ~/.bashrc
 * step6:  <br>
 	* 测试  matlab<br>
+	
+2.Python & Matlab
+-----------------
+* step1：
+	* 在python下安装 pip install mlab
+	
+* step2：调用matlab的内部函数文件
+	* 新建Python文件 
+		* from mlab.releases import latest_release as matlab
+		* matlab.plot([2,3,4,5,8,1],'-o') #画个图
+* step3: 调用matlab的自定义m函数文件
+	* from mlab.releases import latest_release as matlab
+	* matlab.path(matlab.path(),r'C:\Tools\mlabtest')   #'C:\Tools\mlabtest' the path of the read.m
+	* data=matlab.read('input.txt') 
+	
+
 
