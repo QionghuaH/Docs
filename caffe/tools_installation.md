@@ -49,6 +49,7 @@ This file is for installation of tools/packages whithout root
 		* `cd "matlabroot/extern/engines/python"`
 		* 'python setup.py install'
 * step2：使用自带函数 `https://cn.mathworks.com/help/matlab/apiref/matlab.engine.start_matlab.html`
+	* 调用matlab自带的sqrt函数
 		* import matlab.engine
 		* eng = matlab.engine.start_matlab()
 		* A=eng.sqrt(4.)
