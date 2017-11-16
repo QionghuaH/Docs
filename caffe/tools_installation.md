@@ -72,5 +72,21 @@ This file is for installation of tools/packages whithout root
 	* matlab.path(matlab.path(),r'C:\Tools\mlabtest')   #'C:\Tools\mlabtest' the path of the read.m
 	* data=matlab.read('input.txt') 
 	
+3.MXNET
+----------
+* step1：
+	* 安装
+		* `git clone –recursive https://github.com/dmlc/mxnet`
+		* `cd mxnet'
+		* `cp make/config.mk ./`
+		* vi config.mk ：`USE_CUDA = 1` `USE_CUDA_PATH = /usr/local/cuda`
+		* `make -j8`
+	* 问题1
+		* cannot find cuda.h
+		* vi config.mk : USE_CUDA_PATH=
+	* 问题2
+		* cannot find opencv2/cv.hpp
+		* `locate opencv.pc`
+		* export PKG_CONFIG_PATH=/path/to/lib/pkgconfig
 
 
