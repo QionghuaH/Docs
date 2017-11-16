@@ -92,5 +92,21 @@ This file is for installation of tools/packages whithout root
 		* cannot find opencv2/cv.hpp
 		* `locate opencv.pc`
 		* export PKG_CONFIG_PATH=/path/to/lib/pkgconfig
-
+		
+4.Ice for Python
+--------
+* step1：
+	* 安装
+		* wget https://pypi.python.org/packages/7a/c2/b65a15aa0a8711708f6c39bddf52596e8d477e9e943dc70cad6f9b9c807a/zeroc-ice-3.7.0.tar.gz#md5=930b0357118906ae58bf526a5ab3c715
+		* tar -zxvf *.tar.gz
+		* cd zeroc-ice-3.7
+		* `python setup.py install`
+* step2：问题
+	* 安装openssl
+		* wget https://www.openssl.org/source/openssl-1.0.2m.tar.gz
+		* tar -xzvf openssl-1.0.2m.tar.gz
+		* cd openssl-1.0.2m
+		* ./config --prefix=
+		* ./config -t
+		* make && make install
 
