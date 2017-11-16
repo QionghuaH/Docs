@@ -81,6 +81,10 @@ This file is for installation of tools/packages whithout root
 		* `cp make/config.mk ./`
 		* vi config.mk ：`USE_CUDA = 1` `USE_CUDA_PATH = /usr/local/cuda`
 		* `make -j8`
+	* Python 使用
+		* `cd python`
+		* `python setup.py install`
+		* `export PYTHONPATH=~/mxnet/python` to ~/.bashrc
 	* 问题1
 		* cannot find cuda.h
 		* vi config.mk : USE_CUDA_PATH=
