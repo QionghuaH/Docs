@@ -76,7 +76,7 @@ This file is for installation of tools/packages whithout root
 ----------
 * step1：
 	* 安装
-		* `git clone –recursive https://github.com/dmlc/mxnet`
+		* `git clone -recursive https://github.com/dmlc/mxnet`
 		* `cd mxnet'
 		* `cp make/config.mk ./`
 		* vi config.mk ：`USE_CUDA = 1` `USE_CUDA_PATH = /usr/local/cuda`
