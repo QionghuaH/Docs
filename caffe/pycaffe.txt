@@ -7,7 +7,9 @@
 
 4.
   A1:mkdir python_venv
-     virtualenv --distribute python_venv
+     virtualenv --system-site-packages python_venv 
+     //--system-site-packages：与上面相反，使隔离环境能访问系统环境的python安装包
+     //--distribute：copy一个python环境的分支，默认会安装setup、pip、wheel等基础模块
      cd python_venv
      source ./bin/activate
      deactivate
