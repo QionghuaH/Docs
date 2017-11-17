@@ -41,6 +41,15 @@ This file is for installation of tools/packages whithout root
 * step6:  <br>
 	* 测试  matlab<br>
 	
+* step7:安装libsvm
+	* 下载libsvm http://www.csie.ntu.edu.tw/~cjlin/libsvm/
+	* 解压
+	* cd livsvm/matlab
+	* modify Makefile
+		* MATLABDIR=/your/path/to/matlab
+	* make
+	* 使用matlab时使用addpath(genpath('./libsvm-3.22/matlab/'));
+	
 2.Python & Matlab
 -----------------
 * step1：安装
