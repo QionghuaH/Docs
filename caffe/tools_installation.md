@@ -81,8 +81,8 @@ This file is for installation of tools/packages whithout root
 		* `cp make/config.mk ./`
 		* vi config.mk ：`USE_CUDA = 1` `USE_CUDA_PATH = /usr/local/cuda` 
 		* `USE_BLAS = openblas` (#Line no : 93) 
-    		* `ADD_LDFLAGS = -L/home_dir/openblas/lib`
-    		* `ADD_CFLAGS =  -I/home_dir/openblas/include`
+    		* `ADD_LDFLAGS = -L/home_dir/openblas/lib -L/home_dir/opencv/lib`
+    		* `ADD_CFLAGS =  -I/home_dir/openblas/include -I/home_dir/opencv/include`
 		* `make -j8`
 	* Python 使用
 		* `cd python`
