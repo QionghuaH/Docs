@@ -14,7 +14,9 @@
    3.vi sever.py
    4.slice2cpp *.ice
    5.vi client.cpp
-    
+   6.开启服务python sever.py
+   7.编译client.cpp *.cpp -std=c++11 -l -l pthread -l Ice -l IceUtil -l opencv_core -l opencv_flann -l copencv_imgproc -l opencv_photo 
+-l opencv_video -l opencv_features2d -l opencv_objdetect -l opencv_ml -l opencv_highgui -l opencv_contrib -l boost_program_options
  11.15
     matlab安装libsvm http://www.csie.ntu.edu.tw/~cjlin/libsvm/，当前版本为libsvm-3.22.zip
     64位windows直接添加 libsvm-3.22/windows到matlab路径下
