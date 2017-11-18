@@ -1,3 +1,20 @@
+ 11.18
+    学会使用ice
+    1.编写*.ice
+    module VGGD
+    {
+    ["python:seq:list"] sequence<byte> buff;
+    interface VGGDetection
+    {
+        string detectionFrame(buff frame);
+        void shutdown();
+    };
+   };
+   2.slice2py *.ice
+   3.vi sever.py
+   4.slice2cpp *.ice
+   5.vi client.cpp
+    
  11.15
     matlab安装libsvm http://www.csie.ntu.edu.tw/~cjlin/libsvm/，当前版本为libsvm-3.22.zip
     64位windows直接添加 libsvm-3.22/windows到matlab路径下
