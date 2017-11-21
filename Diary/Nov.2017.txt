@@ -1,6 +1,6 @@
  11.21
-    使用MTCNNv2裁LFW-deepfunned的图片 测试LFW
-    MS_10000&148000（24epoch）迭代   YTF上测试准确率：YTF  10-fold 94.88%     max：95.8%
+    使用MTCNNv2裁LFW-deepfunned的图片 测试LFW（阈值，选中间的图片）
+    MS_10000&148000（24epoch）迭代   YTF上测试准确率：YTF  10-fold 94.88%     max：95.8%
     
  11.20
     MS_10000训练过度，本来应该是42000，结果训练到了148000，准备测准确率
