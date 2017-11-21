@@ -1,5 +1,6 @@
  11.21
-    使用MTCNNv2裁LFW-deepfunned的图片 测试LFW（阈值，选中间的图片）
+    使用MTCNNv2裁LFW-deepfunned的图片 测试LFW（阈值，minsize=70，选中间的图片）
+    代码：demo_LFW.m FindMiss.py @14
     MS_10000&148000（24epoch）迭代   YTF上测试准确率：YTF  10-fold 94.88%     max：95.8%
     
  11.20
