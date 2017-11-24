@@ -1,3 +1,6 @@
+ 11.23
+     从IMDB上爬取明星热度，然后找出热度高的明星
+     
  11.21
     使用MTCNNv2裁LFW-deepfunned的图片 测试LFW（阈值，minsize=70，选中间的图片）
     代码：demo_LFW.m FindMiss.py @14
