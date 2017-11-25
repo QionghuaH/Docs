@@ -1,7 +1,16 @@
  11.25
-    清洗FaceSrcub图片 Conver_imgType.py
-    MS_20000&50000（11epoch）迭代   YTF上测试准确率：YTF  10-fold 95.1%     max：97%
-    提取MS_10000的YTF特征和sphere_face
+    1.清洗FaceSrcub图片 Conver_imgType.py
+      格式转成jpg,图片是否有效 /变成三通道模式
+     {def IsValidImage(pathfile):
+      bValid = True
+      try:
+         Image.open(pathfile).verify()
+      except:
+         bValid = False
+     return bValid
+     }
+    2.MS_20000&50000（11epoch）迭代   YTF上测试准确率：YTF  10-fold 95.1%     max：97%
+    3.提取MS_10000的YTF特征和sphere_face
     
  11.23
      从IMDB上爬取明星热度，然后找出热度高的明星
