@@ -1,8 +1,9 @@
  11.26
     1.按照facescrub_features_list.json剪裁facesrub   Get_megaface_imglist.py
+    
  11.25
     1.清洗FaceSrcub图片 Conver_imgType.py
-      格式转成jpg,图片是否有效 /变成三通道模式
+      格式转成jpg,图片是否有效 /变成三通道模式  CMYK格式
      {def IsValidImage(pathfile):
       bValid = True
       try:
