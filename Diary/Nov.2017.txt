@@ -1,3 +1,5 @@
+ 11.26
+    1.按照facescrub_features_list.json剪裁facesrub
  11.25
     1.清洗FaceSrcub图片 Conver_imgType.py
       格式转成jpg,图片是否有效 /变成三通道模式
@@ -9,7 +11,11 @@
          bValid = False
      return bValid
      }
-    2.MS_20000&50000（11epoch）迭代   YTF上测试准确率：YTF  10-fold 95.1%     max：97%
+    2.
+      ori_ct（ct给的模型） YTF上测试准确率：YTF  10-fold 93.54±1.7427     max：95.8%
+      MS_10000&28000（11epoch）迭代   YTF上测试准确率：YTF  10-fold 95.1%±1.9506     max：97%
+      MS_20000&50000（11epoch）迭代   YTF上测试准确率：YTF  10-fold 95.76%±0.4960     max：97%
+      
     3.提取MS_10000的YTF特征和sphere_face
     
  11.23
