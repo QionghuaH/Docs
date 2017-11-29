@@ -8,7 +8,7 @@
  11.28
     1.剪裁FaceScrub图片 demo_FaceScrub_area.m
      过程：I：从清洗后的FaceSrcub图片中 根据facescrub_features_list.json选出需要剪切的图片
-           II：剪裁的时候将jpg格式转换成png
+          II：剪裁的时候将jpg格式转换成png(有6张面积<100,设成40,将这6张剪裁完成)
  11.26
     1.按照facescrub_features_list.json剪裁facesrub   Get_megaface_imglist.py
     2.剪裁 .jpeg,无后缀，
