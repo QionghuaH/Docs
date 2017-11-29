@@ -3,7 +3,8 @@
     2.demo_MegaFace.m
       过程：I:根据megaface_features_list.json_100000_1选出需要裁剪的图片
            II：检测到脸的直接裁  没有检测到的使用给定的点进行裁剪，**将未检测到人脸的图片存在megaface_mtcnn_error.txt
-    3.提取Face_Scrub和MegaFace的特征，并存成*.bin文件
+    3.提取Face_Scrub和MegaFace的特征，并存成*.bin文件（不同大小的干扰项，需要的图片不同 目前做的是MegaFace10000）
+    4.测试准确率
            
  11.28
     1.剪裁FaceScrub图片 demo_FaceScrub_area.m
