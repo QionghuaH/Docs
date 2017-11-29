@@ -12,3 +12,8 @@ Face_Recognition
 --------------
 * 1.
 * 2.
+
+recent paper
+------------
+* 1. `Deep Face Recognition with Center Invariant Loss` http://www1.ece.neu.edu/~yuewu/files/2017/twu024.pdf
+* 2.
