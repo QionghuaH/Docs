@@ -1,5 +1,5 @@
  11.29
-    1.@13上MS_10000u
+    1.@13上MS_10000u模型
     2.demo_MegaFace.m
       过程：I:根据megaface_features_list.json_100000_1选出需要裁剪的图片
            II：检测到脸的直接裁  没有检测到的使用给定的点进行裁剪
