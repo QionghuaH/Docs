@@ -6,3 +6,5 @@ Tools For Pyhton
   * import sys
   * sys.stdout.write('{0}/{1}\r'.format(i + 1,n))
   * sys.stdout.flush()
+  
+* 1.获取文件列表
