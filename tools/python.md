@@ -8,7 +8,7 @@ Tools For Pyhton
   * sys.stdout.flush()
   
 * 2.获取文件列表
-  * ```python
+  ```python
   def get_img_list(dir,img_list):
        if os.path.isfile(dir):
        img_list.append(dir.decode('gbk').encode('utf-8'))#.decode('gbk')
