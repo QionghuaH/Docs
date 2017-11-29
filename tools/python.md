@@ -4,9 +4,9 @@ Tools For Pyhton
 -----------
 * 1.进度条
 ```python
-    import sys
-    sys.stdout.write('{0}/{1}\r'.format(i + 1,n))
-    sys.stdout.flush()
+  import sys
+  sys.stdout.write('{0}/{1}\r'.format(i + 1,n))
+  sys.stdout.flush()
 ```
   
 * 2.获取文件列表
