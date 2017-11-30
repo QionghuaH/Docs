@@ -1,5 +1,6 @@
  11.30
     1.读论文Deep Face Recognition with Center Invariant Loss
+    2.裁megaFace_1M
  11.29
     1.@13上MS_10000u模型
     2.demo_MegaFace.m
