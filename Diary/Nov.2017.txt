@@ -32,7 +32,7 @@
       ori_ct（ct给的模型） YTF上测试准确率：YTF  10-fold 93.54±1.7427     max：95.8%
       MS_10000&28000（12epoch）迭代   YTF上测试准确率：YTF  10-fold 95.1%±1.9506     max：97%
       MS_20000&50000（11epoch）迭代   YTF上测试准确率：YTF  10-fold 95.76%±0.4960     max：97% x
-      MS_20000&56000（12epoch）迭代   YTF上测试准确率：YTF  10-fold 95.76%±0.4960     max：97%
+      MS_20000&56000（12epoch）迭代   YTF上测试准确率：YTF  10-fold 95.54%±0.8996     max：96.4%
       
       ori_ct（ct给的模型） LFW上测试准确率：LFW  10-fold 93.54±1.7427     max：95.8%
       MS_10000&28000（12epoch）迭代   LFW上测试准确率：LFW  10-fold 99.15±0.42     max：99.2%
