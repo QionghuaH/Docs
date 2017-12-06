@@ -5,6 +5,6 @@
      optional float beta=4 ;
      optional float margin=5 ;
      
-  2.修改.hpp  设置新的变量
-    
-  3.
+  2.修改.hpp  设置新的变量  
+  3.修改cpp cu文件
+  4.
