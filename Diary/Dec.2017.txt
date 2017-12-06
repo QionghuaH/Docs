@@ -6,6 +6,10 @@
 12.5
   1.MS_20000u不收敛，center loss很小，约等于0，，softmax 9.87 
     原因：可能内部差异太大了，所以中心不明确
-    
+    
 12.6
-  1.β=0.05  margin=5
+  1.修改center_loss_12.6
+    L=Ls+λLc+1/4*βLcd
+    Lcd=Ε||ci-cj|^2-M|^2 (j=0-N_&& j!=i)
+    △Ci= ..+1/(N_-1)*β*Ε||ci-cj|^2-M|*(ci-cj)
+  2.β=0.05  margin=5
