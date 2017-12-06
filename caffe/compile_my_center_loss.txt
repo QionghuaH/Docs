@@ -1,1 +1,10 @@
-1.
+12.5
+  1. 修改caffe-face-norm\src\caffe\proto\caffe.proto
+     添加参数margin
+     学习率β
+     optional float beta=4 ;
+     optional float margin=5 ;
+     
+  2.修改.hpp  设置新的变量
+    
+  3.
