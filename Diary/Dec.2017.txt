@@ -14,4 +14,6 @@
     △Ci= ..+1/(N_-1)*β*Ε||ci-cj|^2-M|*(ci-cj)
   2.@19 β=0.05  margin=5
   
-  3.整理minist数据集 
+  3.整理minist数据集LMDB caffe根目录下
+   sh ./data/mnist/get_mnist.sh
+   sh ./examples/mnist/create_mnist.sh
