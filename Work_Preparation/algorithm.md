@@ -11,8 +11,13 @@ this file is for algorithm
     * 4.重复2-3
 
   * 2.缺点
-    * 1.对初始化敏感，可能产生局部最优（多试几次）
-
+    * 1.对初始化敏感，可能产生局部最优（多试几次）
+* logical 回归
+  * 方法
+    * y'=wx+b
+    * y'=σ(y')
+    * L=-ylog(y')+(1-y)log(1-y')
+ 
 >K-Means
 
 >KNN
