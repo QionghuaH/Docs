@@ -1,0 +1,19 @@
+1.LFW
+ 
+ 
+2.
+  1.获取所有图片，然后使用一个map,保存文件和文件夹的对应关系。例如subset_map('Aaron_Eckhart/1')=[86 134]
+  2.为每个图片提取特征
+  3.比较特征
+    a.计算所有训练集的平均值(先求出每个文件夹下的特征平均值，然后加起来，除以平均文件夹数)
+       feature2 = features(:,feature_index(1):feature_index(2));
+       feature_mean = feature_mean + mean(feature2,2);
+       feature_mean = feature_mean / feature_count;
+    b.将所有特征减去平均特征，然后归一化
+       feature2 = bsxfun(@minus, feature2, feature_mean);
+       feature2 = bsxfun(@rdivide, feature2, sqrt(sum(feature2.^2)));
+       两个向量相乘，生成距离空间 再求平均值，生成距离平均值
+       distance_matrix = feature1' * feature2;
+       mean_distances(i) = mean(distance_matrix(:));
+       
+    c.使用平均距离mean_distances进行SVM训练，然后再用训练的模型预测测试集
