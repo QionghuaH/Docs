@@ -20,8 +20,8 @@ this file is for algorithm
  
 #分类算法
 ---------------------
-* KNN
-  * 算法
+* KNN（邻近算法）
+  * 算法
     * 1.计算出K个训练元组到A的距离Lk
     * 2.变量训练元组，计算出到A的距离 如果距离L大于等于max（LK）,则丢弃，否则删除LKmax，将L添加进去
     * 3.找出K个中多数类，则为A的类别
@@ -30,7 +30,8 @@ this file is for algorithm
     * 1.样本不平衡时  
     * 2.计算量较大
 
->EM
+* EM(最大期望)
+*
 
 >SVM
 
