@@ -8,3 +8,7 @@
   2.修改.hpp  设置新的变量  
   3.修改cpp cu文件
   4.
+
+
+1.编写cpp hpp cu文件
+2.修改caffe-face-norm\src\caffe\proto\caffe.proto
