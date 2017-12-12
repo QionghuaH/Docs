@@ -1,5 +1,6 @@
-12.7
-  1.仿真center_invariant_loss
+12.12
+  1.仿真center_invariant_loss成功
+  
 12.6
   1.修改center_loss_12.6
     L=Ls+λLc+1/4*βLcd
