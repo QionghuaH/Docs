@@ -1,12 +1,5 @@
-12.3
-  1.@13 MS_20000u
-  2.MS_10000u 提取特征
-  3. LFW MS_10000u  98.6±0.62
-  4. LFW MS_10000u  94.9±0.6549
-12.5
-  1.MS_20000u不收敛，center loss很小，约等于0，，softmax 9.87 
-    原因：可能内部差异太大了，所以中心不明确
-    
+12.7
+  1.仿真center_invariant_loss
 12.6
   1.修改center_loss_12.6
     L=Ls+λLc+1/4*βLcd
@@ -17,3 +10,16 @@
   3.整理minist数据集LMDB caffe根目录下
    sh ./data/mnist/get_mnist.sh
    sh ./examples/mnist/create_mnist.sh
+   
+12.5
+  1.MS_20000u不收敛，center loss很小，约等于0，，softmax 9.87 
+    原因：可能内部差异太大了，所以中心不明确
+    
+12.3
+  1.@13 MS_20000u
+  2.MS_10000u 提取特征
+  3. LFW MS_10000u  98.6±0.62
+  4. LFW MS_10000u  94.9±0.6549
+
+    
+
