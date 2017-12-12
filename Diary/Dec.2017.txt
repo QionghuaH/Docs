@@ -1,6 +1,6 @@
 12.12
   1.仿真center_invariant_loss成功   收敛慢
-  
+  2.弄明白了contrastive loss的代码Li,j=y(xi-xj)^2+(1-y)(margin-(xi-xj)^2) 和反向传到 根据y的值xi，xj求导
 12.6
   1.修改center_loss_12.6
     L=Ls+λLc+1/4*βLcd
