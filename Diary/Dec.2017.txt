@@ -1,5 +1,5 @@
 12.12
-  1.仿真center_invariant_loss成功
+  1.仿真center_invariant_loss成功   收敛慢
   
 12.6
   1.修改center_loss_12.6
