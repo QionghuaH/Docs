@@ -1,3 +1,6 @@
+12.13
+  1.center_loss_me后面不收敛了
+  2.使用MS_20000模型提取MegaFace1M_Aligned的特征
 12.12
   1.仿真center_invariant_loss成功   收敛慢
   2.LOG(INFO) << "center_invariant_loss :loss=: " << loss; 打印某个变量
