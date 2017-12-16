@@ -1,3 +1,6 @@
+12.16
+  MS10000 megaface 0.608225
+  
 12.13
   1.center_loss_me后面不收敛了
   2.使用MS_20000模型提取MegaFace1M_Aligned的特征
