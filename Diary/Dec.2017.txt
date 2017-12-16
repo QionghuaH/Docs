@@ -1,5 +1,6 @@
 12.16
   MS10000 megaface 0.608225
+  MS12000 megaface 0.915969
   
 12.13
   1.center_loss_me后面不收敛了
