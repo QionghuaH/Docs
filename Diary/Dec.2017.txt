@@ -1,8 +1,12 @@
+12.18
+  1.MS20000不降的原因：？调整
+  2.center_loss_me 不降的原因？
 12.17
-  get_overlap.py(为MS创建字典，然后提取LFW测试name 和MS中的匹配 如果有就保存到文本LFW_MS_overlap.txt )
-  以前训练的MS10000 与LFW 重合 595个
+  1.MS20000n @19
+  2.get_overlap.py(为MS创建字典，然后提取LFW测试name 和MS中的匹配 如果有就保存到文本LFW_MS_overlap.txt )
+  3.以前训练的MS10000 与LFW 重合 595个
                    与facescrub 重合 25个
-  以前训练的MS20000 与LFW 重合 848个
+  4.以前训练的MS20000 与LFW 重合 848个
                    与facescrub 重合 35个   
 12.16
   MS10000 megaface 0.608225
