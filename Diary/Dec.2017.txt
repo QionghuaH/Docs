@@ -1,6 +1,7 @@
 12.19
   1. center_loss_me  |ci|>margin (5->25)
   2. MS20000u 实验：lr=0.01 center_loss=0.1
+  3. normalization? try
 12.18
   1.MS20000u不降的 u表示未清理
   原因：？调整
