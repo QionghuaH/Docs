@@ -1,6 +1,9 @@
+12.21 
+  1.minist 可视化 ？
 12.20 
-  1.L=|ci|-E(ci)/N  maybe help   minist 0.005
-  
+  1.L=|ci|-E(ci)/N  maybe help   minist 0.005  0.01√  0.05√  0.1
+  2.L=cosine(xi,ci) 
+  3. see how good on MS_celeb （overlaped）
 12.19
   1. center_loss_me  |ci|>margin (5->25)
   2. MS20000u 实验：lr=0.01 center_loss=0.1 
