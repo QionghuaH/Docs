@@ -1,10 +1,11 @@
 12.21 
   1.minist 结果可视化 ？
-    -mnist 提取特征[使用图片直接提取最后一层特征  注意单通道问题]
+    -mnist 提取特征[使用图片直接提取最后一层特征  注意单通道问题，！！！特征可能是浅复制]
     -mnist二维图
   2. cos_loss  loss_weight 0.01√ 0.005√ 0.001√   [train_loss is very small 0.0009 but the test_loss is big0.11]
-  3.训练过程可视化
-  4.距离 直方图可视化 ？
+  3.cos_loss face 出错？
+  4.训练过程可视化
+  5.距离 直方图可视化 ？
 12.20 
   1.L=|ci|-E(ci)/N  maybe help   minist 0.005  0.01√  0.05√  0.1
   2.L=cosine(xi,ci) 
