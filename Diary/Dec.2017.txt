@@ -1,5 +1,7 @@
+12.22
+  plot minist 3d  ？
 12.21 
-  1.minist 结果可视化 ？
+  1.minist 结果可视化
     -mnist 提取特征[使用图片直接提取最后一层特征  注意单通道问题，！！！特征可能是浅复制]
     -mnist二维图
   2. cos_loss  loss_weight 0.01√ 0.005√ 0.001√   [train_loss is very small 0.0009 but the test_loss is big0.11]
