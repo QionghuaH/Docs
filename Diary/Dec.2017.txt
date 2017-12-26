@@ -6,6 +6,7 @@
   5.@19 margin结果 avg 结果？？
   6.@13 [50,50,60,60,70,70,80,80,90,90]  50,80,100 avg（β=0.5） 结果见 mnist-visulation-result.doc
   7.训练数据集越多，越可靠？  数据增广？
+  8.MS10000-avg（β=0.01）
 12.25
   1. 提取2d,3d 特征，3d特征 cosine的效果没有ori_ct好
   2. 2d特征  ori_ct和avg 差不多，但是cosine_ct效果跟单独用softmax的特征差不多，所以感觉贡献不大？
@@ -22,7 +23,7 @@
   4.训练过程可视化
   5.距离 直方图可视化 ？
 12.20 
-  1.L=|ci|-E(ci)/N  maybe help   minist 0.005  0.01√  0.05√  0.1       MS10000-avg 99.1 99.05±0.4349
+  1.L=|ci|-E(ci)/N  maybe help   minist 0.005  0.01√  0.05√  0.1       MS10000-avg（β=0.005）  99.1 99.05±0.4349
   2.L=cosine(xi,ci) 
   3. see how good on MS_celeb （overlaped）
 12.19
