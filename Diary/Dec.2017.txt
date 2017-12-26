@@ -21,7 +21,7 @@
   4.训练过程可视化
   5.距离 直方图可视化 ？
 12.20 
-  1.L=|ci|-E(ci)/N  maybe help   minist 0.005  0.01√  0.05√  0.1
+  1.L=|ci|-E(ci)/N  maybe help   minist 0.005  0.01√  0.05√  0.1       MS10000-avg 99.1 99.05±0.4349
   2.L=cosine(xi,ci) 
   3. see how good on MS_celeb （overlaped）
 12.19
