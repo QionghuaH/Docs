@@ -2,6 +2,8 @@
   1.YTF并没有排除 ！！！
   2.MS20000n 提取LFW特征  0.9955  99.5167±0.2522
              提取FaceScrube/megaFace1M特征 
-  3.图像变换 安装TensorFlow https://www.tensorflow.org/install/install_linux#InstallingVirtualenv  
+  3.图像变换 
+     --安装TensorFlow https://www.tensorflow.org/install/install_linux#InstallingVirtualenv  
      (P:libcudnn.so.6: cannot open shared object file             
       A:pip install tensorflow-gpu==1.2)
+     --HQH\code\DataAug_2.py
