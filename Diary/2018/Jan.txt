@@ -1,3 +1,10 @@
+1.8
+ 1.vnc  
+ #启动 vncserver #返回一个端口号
+ # win7启动vnc viewer 软件 输入vnc server address ip：端口号
+ # 保存
+ 2.DCGAN:  https://github.com/carpedm20/DCGAN-tensorflow
+ 
 1.6
   1.@19 MS_10000n (no overlap all of 3)
   2.
