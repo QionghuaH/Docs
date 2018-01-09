@@ -1,6 +1,6 @@
 1.9
   1.python多进程  http://blog.csdn.net/jinlong_xu/article/details/67649206
-  2.@16 center_cosine_loss  loss_weight=0.08    0.0008没有效果
+  2.@16 center_cosine_loss  loss_weight=0.8    0.0008没有效果
 1.8
  1.vnc  
  #启动 vncserver #返回一个端口号
