@@ -1,8 +1,10 @@
 1.11
   1. 如何调整参数
 1.10
-  1.DenseNet 修改完成
-  2. 弄懂resnet http://blog.csdn.net/wspba/article/details/56019373    
+  1.DenseNet 修改完成 XXXXX
+    @19 Resnet-50  
+  2. 弄懂resnet http://blog.csdn.net/wspba/article/details/56019373    
+  
                 https://www.jianshu.com/p/1c7668f1dc25    -------------改进Resnet模型
          inception 
          convolution层 http://blog.csdn.net/zhubenfulovepoem/article/details/29583429 
