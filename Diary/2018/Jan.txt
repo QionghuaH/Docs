@@ -1,3 +1,5 @@
+1.11
+  1. 如何调整参数
 1.10
   1.DenseNet 修改完成
   2. 弄懂resnet http://blog.csdn.net/wspba/article/details/56019373    
