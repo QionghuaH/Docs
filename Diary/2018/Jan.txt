@@ -1,6 +1,7 @@
 1.10
   1.DenseNet 修改完成
-  2. 弄懂resnet 和 inception
+  2. 弄懂resnet http://blog.csdn.net/wspba/article/details/56019373
+        inception
 1.9
   1.python多进程  http://blog.csdn.net/jinlong_xu/article/details/67649206
   2.@16 center_cosine_loss  loss_weight=0.1    0.0008没有效果
