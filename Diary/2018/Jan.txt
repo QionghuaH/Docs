@@ -1,5 +1,7 @@
 1.11
-  1. 如何调整参数
+  1. 如何调整参数 http://rishy.github.io/ml/2017/01/05/how-to-train-your-dnn/
+  2. cosine loss 过拟合
+  3. overlap 10000出结果
 1.10
   1.DenseNet 修改完成 XXXXX
     @19 Resnet-50  
