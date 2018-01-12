@@ -3,6 +3,7 @@
                  http://blog.csdn.net/sinat_26917383/article/details/54232791
   2. cosine loss 过拟合
   3. overlap 10000出结果
+  4.训练自己的模型 非图片 http://blog.csdn.net/shadow_guo/article/details/50382446
 1.10
   1.DenseNet 修改完成 XXXXX
     @19 Resnet-50  
