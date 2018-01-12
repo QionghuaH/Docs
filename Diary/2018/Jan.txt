@@ -1,5 +1,6 @@
 1.11
   1. 如何调整参数 http://rishy.github.io/ml/2017/01/05/how-to-train-your-dnn/
+                 http://blog.csdn.net/sinat_26917383/article/details/54232791
   2. cosine loss 过拟合
   3. overlap 10000出结果
 1.10
