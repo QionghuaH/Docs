@@ -1,7 +1,9 @@
 1.13
   @13 avg_loss  beta=0.01  在beta=0.005的基础上将权重增加了
   实验1： 测试图片数 目前50  25,50,75,100,125过拟合？
-  实验2： 对于cosine_loss  
+         @19 t1 25
+         @19 t0 50
+  实验2： 对于cosine_loss  
          1.batch——norm
          2.norm   
          3.norm   
