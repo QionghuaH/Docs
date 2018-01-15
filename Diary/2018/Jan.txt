@@ -1,7 +1,9 @@
 1.16
   1.
 1.15 
-  1.修改one_loss  beta=1  margin=10 top_n =5
+  1.修改one_loss  
+  @16 t0 beta=1  margin=10 top_n =5
+  @16 t1 beta=1  margin=10 top_n =1
   2.BUG：  进去后除以一个数后为0,可能是因为在一个循环里面除以的。除以了多次！
   3.测试 batch_size的影响
 1.13
