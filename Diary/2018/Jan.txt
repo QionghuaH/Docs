@@ -1,6 +1,7 @@
 1.16
   1.@16 t2 batch_norm 的位置 convolution->bn->relu 之后
   2.LightCNN
+  3.视频抽帧
 1.15 
   1.修改one_loss  
   @16 t0 beta=1  margin=10 top_n =5
