@@ -8,6 +8,7 @@
   3.测试 batch_size的影响
 1.13
   @13 avg_loss
+        beta=0.001   
         beta=0.005   99.1 99.05±0.4349
         beta=0.01    
   
