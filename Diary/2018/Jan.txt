@@ -2,7 +2,7 @@
   1.实验  数据增广
 1.16
   1.实验 ：batch_norm
-          @16 t2 batch_norm 的位置 convolution->bn->relu 之后  Nan
+          @16 t2 batch_norm 的位置 convolution->bn->relu 之后 0.001 Nan   end 1.16
   
   2.实验：LightCNN    
           @19 MS_50K  lr=0.1 ->0.01 ->0.005
@@ -10,9 +10,10 @@
   3.视频抽帧 --
 1.15 
   1.修改one_loss  
-         @16 t0 beta=1  margin=10 top_n =5  ->nan 5K iter
-         @16 t0 beta=1  margin=10 top_n =2
-         @16 t1 beta=1  margin=10 top_n =1
+         @16 t0 beta=1    margin=10 top_n =5  ->nan 5K iter
+         @16 t0 beta=1    margin=10 top_n =2  
+         @16 t1 beta=1    margin=10 top_n =1    Loss_one=1039.19
+         @16 t2 beta=0.1  margin=10 top_n =1
   
   2.BUG：  进去后除以一个数后为0,可能是因为在一个循环里面除以的。除以了多次！
   3.测试 batch_size的影响
