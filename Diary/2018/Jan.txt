@@ -2,7 +2,7 @@
   1.数据增广实验……
 1.16
   1.@16 t2 batch_norm 的位置 convolution->bn->relu 之后
-  2.LightCNN    MS_50K  lr=0.1
+  2.LightCNN    MS_50K  lr=0.1 ->0.01 ->0.005
   3.视频抽帧 --
 1.15 
   1.修改one_loss  
