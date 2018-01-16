@@ -1,20 +1,26 @@
 1.17 
-  1.数据增广实验……
+  1.实验  数据增广
 1.16
-  1.@16 t2 batch_norm 的位置 convolution->bn->relu 之后
-  2.LightCNN    MS_50K  lr=0.1 ->0.01 ->0.005
+  1.实验 ：batch_norm
+          @16 t2 batch_norm 的位置 convolution->bn->relu 之后  Nan
+  
+  2.实验：LightCNN    
+          @19 MS_50K  lr=0.1 ->0.01 ->0.005
+  
   3.视频抽帧 --
 1.15 
   1.修改one_loss  
-  @16 t0 beta=1  margin=10 top_n =5
-  @16 t1 beta=1  margin=10 top_n =1
+         @16 t0 beta=1  margin=10 top_n =5  ->nan 5K iter
+         @16 t0 beta=1  margin=10 top_n =2
+         @16 t1 beta=1  margin=10 top_n =1
+  
   2.BUG：  进去后除以一个数后为0,可能是因为在一个循环里面除以的。除以了多次！
   3.测试 batch_size的影响
 1.13
   @13 avg_loss
-        beta=0.001   
-        beta=0.005   99.1    99.0500±0.4349
-        beta=0.01    98.967  98.9000+0.4485
+         beta=0.001   
+         beta=0.005   99.1    99.0500±0.4349
+         beta=0.01    98.967  98.9000+0.4485
   
   实验1： 测试图片数 目前50  25,50,75,100,125过拟合？
          @19 t1 25   lfw    0.9768   97.4500+1.1644       #128 8K 12K 14K
@@ -26,9 +32,12 @@
          2.norm   
          3.norm   
          4.drop_out  
-              @16 cosine_loss 加 dropout=0.5(不收敛）  0.2
+              @16 cosine_loss 加 dropout=0.5(不收敛）  0.2 不收敛
+         
 1.12
-  Resnet 将图片换成224*224 原网络有降  softmax=3.0  速度慢   然候加fc5 加center_loss
+  实验：
+  Resnet 将图片换成224*224 原网络有降  softmax=3.0  速度慢   有fc5 
+  @16 lfw 
 1.11
   1. 如何调整参数 http://rishy.github.io/ml/2017/01/05/how-to-train-your-dnn/
                  http://blog.csdn.net/sinat_26917383/article/details/54232791
