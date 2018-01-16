@@ -37,7 +37,7 @@
 1.12
   实验：
   Resnet 将图片换成224*224 原网络有降  softmax=3.0  速度慢   有fc5 
-  @16 lfw 
+  @16 lfw 0.9765  97.5500+0.7267
 1.11
   1. 如何调整参数 http://rishy.github.io/ml/2017/01/05/how-to-train-your-dnn/
                  http://blog.csdn.net/sinat_26917383/article/details/54232791
