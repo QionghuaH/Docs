@@ -9,8 +9,8 @@
   
   3.视频抽帧 --
 1.15 
-  1.修改one_loss  
-         @16 t0 beta=1    margin=10 top_n =5  ->nan 5K iter
+  1.修改one_loss  #只更新C  不更新X
+         @16 t0 beta=1    margin=10 top_n =5  ->nan 5K iter
          @16 t0 beta=1    margin=10 top_n =2  
          @16 t1 beta=1    margin=10 top_n =1    Loss_one=1039.19
          @16 t2 beta=0.1  margin=10 top_n =1
