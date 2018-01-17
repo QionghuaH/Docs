@@ -1,13 +1,13 @@
 1.17 
-  1.实验  数据增广
+  1.实验  数据增广 
   2.
 1.16
   1.实验 ：batch_norm
           @16 t2 batch_norm 的位置 convolution->bn->relu 之后 0.001 Nan   end 1.16
   
-  2.实验：LightCNN    
-          @19 MS_50K  image_size lr=0.01
-  
+  2.实验：LightCNN    --灰度图像
+          @19 MS_50K  image_size lr=0.001
+                      不降就加ct试试
   3.视频抽帧 --
 1.15 
   1.修改one_loss  #只更新C  不更新X
