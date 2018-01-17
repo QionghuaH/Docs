@@ -6,7 +6,7 @@
           @16 t2 batch_norm 的位置 convolution->bn->relu 之后 0.001 Nan   end 1.16
   
   2.实验：LightCNN    
-          @19 MS_50K  lr=0.1 ->0.01 ->0.005
+          @19 MS_50K  image_size lr=0.01
   
   3.视频抽帧 --
 1.15 
