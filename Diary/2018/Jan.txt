@@ -1,6 +1,6 @@
 1.17 
   1.实验  数据增广 
-  2.
+  2.实验 cosine_loss weight_decay: 10?
 1.16
   1.实验 ：batch_norm
           @16 t2 batch_norm 的位置 convolution->bn->relu 之后 0.001 Nan   end 1.16
