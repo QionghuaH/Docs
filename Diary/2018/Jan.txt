@@ -6,7 +6,7 @@
           @16 t2 batch_norm 的位置 convolution->bn->relu 之后 0.001 Nan   end 1.16
   
   2.实验：LightCNN    --灰度图像
-          @19 MS_50K  image_size lr=0.001
+          @19 MS_50K(>50张图片）  image_size lr=0.001
                       不降就加ct试试
   3.视频抽帧 --
 1.15 
@@ -29,6 +29,9 @@
          @19 t0 50   lfw    0.9868   98.5833+0.6203       #256 8K 12K 14K
          @19 t0 75   lfw    0.9902   98.9000+0.4726       #256 16K 24K 28K
          @19 t1 100  lfw    0.9902   98.9333+0.4899       #256 16K 24K 28K
+         @ 125？
+ 
+         
   实验2： 对于cosine_loss  
          1.batch——norm
          2.norm   
