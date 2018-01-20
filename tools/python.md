@@ -23,7 +23,7 @@ Tools For Pyhton
       
 * 3.抽帧代码 imageio
 ```python
-```import imageio
+   import imageio
    reader = imageio.get_reader('imageio:cockatoo.mp4','ffmpeg')  #avbin
    for i, im in enumerate(reader):
        print('Mean of frame %i is %1.1f' % (i, im.mean()))
