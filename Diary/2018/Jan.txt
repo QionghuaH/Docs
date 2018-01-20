@@ -1,5 +1,7 @@
+1.20
+  1.实验  数据增广 @13
 1.17 
-  1.实验  数据增广 
+  1.cosine_loss : normal l2,scale=5   loss-weight=0.01
   2.实验 cosine_loss weight_decay: 10?
 1.16
   1.实验 ：batch_norm
