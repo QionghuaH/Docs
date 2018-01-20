@@ -21,6 +21,18 @@ Tools For Pyhton
        return img_list
 ```
       
-* 3.
+* 3.抽帧代码 imageio
 ```python
+```import imageio
+   reader = imageio.get_reader('imageio:cockatoo.mp4','ffmpeg')  #avbin
+   for i, im in enumerate(reader):
+       print('Mean of frame %i is %1.1f' % (i, im.mean()))
+```
+      
+* 4.抽帧代码 opencv
+```python
+   import cv2
+   cap = cv2.VideoCapture('/path/to/your/video.mp4')
+   while(cap.isOpened()): 
+      ret, frame = cap.read() 
 ```
