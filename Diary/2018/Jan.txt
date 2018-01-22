@@ -1,6 +1,7 @@
 1.22
   1.@13 去模糊  threshold=40   一共解压了2W个类
-    @13 使用K-Means 聚类， 参数：balance_threhold=3   dist_to_cent> 0.4342   vg_dist>0.35  remain_num>=40
+    @13 使用K-Means 聚类， 参数： choose the big group as center  #balance_threhold=3   //
+                                dist_to_cent> 0.4342   vg_dist>0.35  remain_num>=40
 1.20
   1.实验  @13数据增广  色彩变换
 1.17 
