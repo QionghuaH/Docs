@@ -1,3 +1,6 @@
+1.23
+  1.跑了一遍BLUFR，准确率应该会提升吧
+  2.使用SSD跑了人体检测
 1.22
   1.@13 去模糊  threshold=40   一共解压了2W个类
     @13 使用K-Means 聚类， 参数： choose the big group as center  #balance_threhold=3   //
