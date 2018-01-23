@@ -20,10 +20,9 @@
          @16 t0 beta=1    margin=10 top_n =5  ->nan 5K iter
          @16 t1 beta=1    margin=10 top_n =1    Loss_one=1039.19  后降  
                           23000次被断过128->256   0.9875   98.6333+0.6574
-         @16 t0 beta=1    margin=10 top_n =2   batch =256
+         @16 t2 beta=1    margin=10 top_n =2   batch =256
          @16 t1 beta=1    margin=10 top_n =3   batch =256
-                           
-         @16 t2 beta=0.1  margin=10 top_n =1   batch =256
+         @16 t0 beta=0.1  margin=10 top_n =1   batch =256
           
   
   2.BUG：  进去后除以一个数后为0,可能是因为在一个循环里面除以的。除以了多次！
