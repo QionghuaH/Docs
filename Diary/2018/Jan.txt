@@ -37,7 +37,7 @@
          @16 t0 beta=1    margin=10 top_n =3   batch =256    √
          @16 t2 beta=1    margin=10 top_n =1   batch =256
         
-         @16 
+         @16 t0 beta=0.1  margin=10 top_n =3   batch =256
           
   
   2.BUG：  进去后除以一个数后为0,可能是因为在一个循环里面除以的。除以了多次！
