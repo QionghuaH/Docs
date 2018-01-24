@@ -25,8 +25,10 @@
          @16 t1 beta=1    margin=10 top_n =1    Loss_one=1039.19  后降  
                           23000次被断过128->256   0.9875   98.6333+0.6574
                           
-         @16 t0 beta=0.1  margin=10 top_n =1   batch =256  √   99.03   98.8833+0.5220
-          
+         @16 t0 beta=0.1  margin=10 top_n =1   batch =256  √   28K  99.03   98.8833+0.5220
+                                                               30K  99.05   98.9500+0.6238
+            BLUFR:28K 96.25%    70.03%     30K:96.21%  69.22%
+            
          @16 t1 beta=1    margin=10 top_n =2   batch =256
          @16 t0 beta=1    margin=10 top_n =3   batch =256   
          @16 t2 beta=1    margin=10 top_n =1   batch =256
