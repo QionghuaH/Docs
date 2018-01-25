@@ -37,7 +37,7 @@
             BLUFR:28K 96.25%    70.03%     
                   30K:96.21%    69.22%
             
-         @16 t1 beta=1    margin=10 top_n =0.01   batch =256
+         @16 t1 beta=0.01    margin=10 top_n =1   batch =256
          
          @16 t0 beta=1    margin=10 top_n =3   batch =256    √
              LFW:  28K  0.9905  98.9833+0.6167
