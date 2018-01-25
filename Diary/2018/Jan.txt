@@ -57,6 +57,10 @@
                    30K  96.13%   65.68%  69.74%
                    
          @16 t2 beta=1    margin=10 top_n =1   batch =256   √
+             LFW:  28K 0.990333333333
+                   30K 0.990666666667
+              
+             
          @16    beta=1    margin=10 top_n =3
          @16    beta=1    margin=10 top_n =5
          
