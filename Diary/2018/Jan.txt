@@ -2,11 +2,11 @@
   1.读论文BLUFR
   2.cycle GAN
   3.Unbluring_
-   50:@19  t0  ct        MS_unbluring 
-            LFW: 0.991   98.9500+0.3500
-            BLUFR:  94.49%  78.46%  61.95%
+   50:@19  t0  ct        MS_unbluring (k-means)
+           LFW:    0.991   98.9500+0.3500
+           BLUFR:  94.49%  78.46%  61.95%
             
-            norm:
+      @19  norm ct-one 
       @19  t1  center_one(0.1,10,1)
   4.找出LFW 中错误剪裁的
 1.23
