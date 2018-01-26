@@ -48,8 +48,8 @@
             BLUFR:28K 96.25%    70.03%     
                   30K:96.21%    69.22%
             
-         @16 t1 beta=0.01    margin=10 top_n =1   batch =256
-         
+         @16 t1 beta=0.01    margin=10 top_n =1   batch =256  √
+         
          @16 t0 beta=1    margin=10 top_n =3   batch =256    √
              LFW:  28K  0.9905  98.9833+0.6167
                    30K  0.9905  99.0167+0.6167   
@@ -57,16 +57,17 @@
                    30K  96.13%   65.68%  69.74%
                    
          @16 t2 beta=1    margin=10 top_n =1   batch =256   √
-             LFW:  28K 0.990333333333
-                   30K 0.990666666667
-              
+             LFW:  28K 0.990333333333   98.9000+0.4607
+                   30K 0.990666666667   99.0167+0.3452
              
-         @16    beta=1    margin=10 top_n =3
+              
+         @16 t0  beta=1    margin=10 top_n =5
+         
          @16    beta=1    margin=10 top_n =5
          
          @16 t2 beta=0.1    margin=10 top_n =5   batch =256  
         
-         @16 t0 beta=0.1  margin=10 top_n =3   batch =256    
+         @16 t0 beta=0.1  margin=10 top_n =3   batch =256     √
           
   
   2.BUG：  进去后除以一个数后为0,可能是因为在一个循环里面除以的。除以了多次！
