@@ -3,6 +3,7 @@
    @19 t0  norm->fc6->scale->softmax  
    @19 t1  norm->fc6->scale->softmax
            norm->ct-one(0.1-10-5)
+   drop_out=0.2 的影响
 1.26
    @13     no_faceScrub 
    MS_20000       BLUFR 98.25%  92.23%   77.40%
