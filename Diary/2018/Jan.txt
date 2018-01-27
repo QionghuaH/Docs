@@ -81,12 +81,12 @@
          
          @16 t2 beta=0.1    margin=10 top_n =5   batch =256 √
          
-         @16 t1  ct 
+         @16 t1  ct      batch =256 √
          
-         @16 t0   beta=0.01    margin=10 top_n =3
+         @16 t0   beta=0.01    margin=10 top_n =3  batch =256 
          
-         
-         @16 t2   beta=0.01    margin=10 top_n =5
+         以上都使用了dropout……0.2
+         @16 t2   beta=0.01    margin=10 top_n =5
           
         
          
