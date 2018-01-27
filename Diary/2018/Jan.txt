@@ -1,4 +1,8 @@
 
+1.27
+   @19 t0  norm->fc6->scale->softmax  
+   @19 t1  norm->fc6->scale->softmax
+           norm->ct-one(0.1-10-5)
 1.26
    @13     no_faceScrub 
    MS_20000       BLUFR 98.25%  92.23%   77.40%
@@ -13,9 +17,9 @@
            LFW:    0.991   98.9500+0.3500
            BLUFR:  94.49%  78.46%  61.95%
             
-      @19  to norm center_one(0.1,10,1) 1.25
-      
-      @19  t1  center_one(0.1,10,1)  1.24  nan
+      @19  to norm center_one(0.1,10,1) 1.25 ×
+      
+      @19  t1  center_one(0.1,10,1)  1.24  nan ×
   4.找出LFW 中错误剪裁的
 1.23
   1.跑了一遍BLUFR，准确率应该会提升吧
