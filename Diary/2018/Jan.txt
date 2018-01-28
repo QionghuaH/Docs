@@ -1,4 +1,6 @@
 
+1.29 
+   @19 试试AM-softmax
 1.28
    @19 flip softmax   4K时梯度爆炸  降低学习率
    @ 
