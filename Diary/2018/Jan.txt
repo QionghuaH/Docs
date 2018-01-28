@@ -1,4 +1,7 @@
 
+1.28
+   @19 flip softmax 
+   @
 1.27
    @19 t0  norm->fc6->scale->softmax  
    @19 t1  norm->fc6->scale->softmax
@@ -49,13 +52,16 @@
          @16 t1 beta=1    margin=10 top_n =1    Loss_one=1039.19  后降  
                           23000次被断过128->256   0.9875   98.6333+0.6574
                           
-                          
+         @16 t1  ct      batch =256 √     
+            LFW:  28K  0.991    99.0667+0.3350
+                  30K  
+            BLUFR:
                           
          @16 t0 beta=0.1  margin=10 top_n =1   batch =256  √   
             LFW:  28K  99.03   98.8833+0.5220
                   30K  99.05   98.9500+0.6238
-            BLUFR:28K 96.25%  85.27%  70.03%     
-                  30K:96.21%  84.99%  69.22%
+            BLUFR:28K  96.25%  85.27%  70.03%     
+                  30K: 96.21%  84.99%  69.22%
                   
          @16 t0 beta=0.1  margin=10 top_n =3   batch =256     √
             LFW:  28K  0.9913    99.0333+0.4069
@@ -63,14 +69,21 @@
             BLUFR:28K  96.48%  85.48%  68.35%
                   30K  96.49%  85.50%  68.15%
          
-            
+         @16 t2 beta=0.1    margin=10 top_n =5   batch =256 √ 
+             LFW:
+             BLUFR:
+             
          @16 t1 beta=0.01    margin=10 top_n =1   batch =256  √
              LFW:  28K  0.99116   99.0500+0.3655
                    30K  0.99116   99.1+0.3266
              BLUFR:28K  96.34%  85.31%  66.50%      
                    30K  96.36%  85.30%  66.72%
+                   
+         @16 t0   beta=0.01    margin=10 top_n =3  batch =256  √
+             LFW:
+             BLUFR:
          
-          @16 t2 beta=1    margin=10 top_n =1   batch =256   √
+         @16 t2 beta=1    margin=10 top_n =1   batch =256   √
              LFW:  28K 0.9903   98.9000+0.4607
                    30K 0.9906   99.0167+0.3452
              BLUFR:28K  96.06%  83.85%  65.64%
@@ -84,11 +97,12 @@
         
          
          
-         @16 t2 beta=0.1    margin=10 top_n =5   batch =256 √
-         
-         @16 t1  ct      batch =256 √
+        
          
-         @16 t0   beta=0.01    margin=10 top_n =3  batch =256 
+         
+         @16 t1  beta=0.1    margin=10  top_n =10
+         
+         @16 t0  beta=0.1    margin=15  top_n =5   
          
          以上都使用了dropout……0.2
          @16 t2   beta=0.01    margin=10 top_n =5
