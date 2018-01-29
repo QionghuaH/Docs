@@ -117,12 +117,13 @@
          
          
          @16 t0  beta=0.1    margin=15  top_n =5
-         @16 t0  beta=0.1    margin=10  top_n =20
+         @16 t2  beta=0.1    margin=10  top_n =20
          
+         @16 t1  beta=0.1    margin=15  top_n =20
          以上都使用了dropout……0.2
          @16 t2   beta=0.01    margin=10 top_n =5
          
-         @16 t1   ct-no drop-out
+         @16 t1   ct-no drop-out   √
           
         
          
