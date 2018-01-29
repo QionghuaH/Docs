@@ -3,8 +3,8 @@
    @19 试试AM-softmax
    @13 试试20K的情况
 1.28
-   @19 flip softmax   4K时梯度爆炸  降低学习率
-   @ 
+   @19 flip softmax   4K时梯度爆炸  降低学习率  loss较低
+   @19 flip- one(0.1-10-5) 
 1.27
    @19 t0  norm->fc6->scale->softmax  
    @19 t1  norm->fc6->scale->softmax
