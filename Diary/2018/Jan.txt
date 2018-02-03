@@ -159,13 +159,14 @@
           margin 越大越好
           
           
-          @16 t0  beta=0.1    margin=20  top_n =20
-            LFW: 28K             
+          @16 t0  beta=0.1    margin=20  top_n =20  √
+            LFW: 28K             
                  30K  
                  
             BLUFR:28K  
                   30K 
-                  
+          @16 t0  beta=0.1   margin=50  top_n =50
+                  
           @16 t1  beta=0.1    margin=50  top_n =100  3.1K  loss=nan  0.01 4.4k  loss=nan x
           @16 t1  beta=0.1    margin=30  top_n =100   4.1K  loss=nan X
           @16 t1  beta=0.1    margin=30  top_n =50
