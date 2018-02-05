@@ -166,17 +166,25 @@
                  
             BLUFR:28K  
                   30K 96.89%  88.85%  75.08%
-          @16 t0  beta=0.1   margin=50  top_n =50
-                  
-          @16 t1  beta=0.1    margin=50  top_n =100  3.1K  loss=nan  0.01 4.4k  loss=nan x
-          @16 t1  beta=0.1    margin=30  top_n =100   4.1K  loss=nan X
-          
-          @16 t1  beta=0.1    margin=30  top_n =50   √
+                  
+           @16 t1  beta=0.1    margin=30  top_n =50   √
             LFW: 28K               
                  30K  0.9896        98.8833+0.5113
                  
             BLUFR:28K  
                   30K 96.21%  87.80%  72.05% [max] 96.31% 88.14%  72.54%
+                  
+          @16 t0  beta=0.1   margin=50  top_n =50  √
+             LFW: 28K             
+                 30K                          [max]0.99016  98.9833+0.4500
+                 
+            BLUFR:28K  
+                  30K 95.52%  85.38%  68.45%  [max]95.54%   85.26%  68.60%
+                  
+          @16 t1  beta=0.1    margin=50  top_n =100  3.1K  loss=nan  0.01 4.4k  loss=nan x
+          @16 t1  beta=0.1    margin=30  top_n =100   4.1K  loss=nan X
+          
+         
            
          以上都使用了dropout……0.2
          @16 t2   beta=0.01    margin=10 top_n =5
