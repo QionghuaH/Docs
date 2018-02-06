@@ -153,7 +153,13 @@
             BLUFR:28K  
                   30K 96.87%  88.29%  73.25%
                   
+         #####@16 t1  beta=0.1    margin=15  top_n =25
                   
+         @16 t1  beta=0.1    margin=15  top_n =30
+         
+         @16 t1  beta=0.1    margin=15  top_n =40
+         
+         @16 t1  beta=0.1    margin=15  top_n =50
          
           beta =0.1         
           top_n 越大越好
