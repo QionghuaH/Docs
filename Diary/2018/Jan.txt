@@ -145,8 +145,8 @@
            BLUFR:28K  
                   30K 96.74%  87.28%  71.40%  √
          
-         @16 t1  beta=0.1    margin=15  top_n =20
-            LFW: 28K             
+         @16 t1  beta=0.1    margin=15  top_n =20               
+            LFW: 28K             
                  30K  0.99133       99.1167+0.4475 
                       [max] 0.99183  99.1500+0.4438
                  
@@ -156,17 +156,23 @@
          #####@16 t1  beta=0.1    margin=15  top_n =25
                   
          @16 t0  beta=0.1    margin=15  top_n =30
-         
+             LFW：30K  0.9881  98.5667+0.5686 
+             BLUFR:30K  95.55%  86.19%  71.21%
+             
          @16 t1  beta=0.1    margin=15  top_n =40
-         
+             LFW：30K  0.9885 98.7667+0.4955  
+             BLUFR:30K  96.05%  87.77%  72.04%
+             
          @16 t2  beta=0.1    margin=15  top_n =50
-         
+             LFW：30K   0.9891   98.8833+0.5058
+             BLUFR: 30K  95.78%  87.73%  73.97%
+             
           beta =0.1         
           top_n 越大越好
           margin 越大越好
           
           
-          @16 t0  beta=0.1    margin=20  top_n =20  √
+          @16 t0  beta=0.1    margin=20  top_n =20  √       [Good]
             LFW: 28K             
                  30K  0.9908  98.9500+0.5580
                  
